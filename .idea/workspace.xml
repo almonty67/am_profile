@@ -61,6 +61,11 @@
               <item name="am_profile" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="~/Desktop/am_profile" type="442cc68d:ScopeViewTreeModel$RootNode" />
             </path>
+            <path>
+              <item name="am_profile" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/Desktop/am_profile" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="contributor" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -121,12 +126,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1560267481600</updated>
-      <workItem from="1560267486533" duration="2017000" />
+      <workItem from="1560267486533" duration="2290000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2017000" />
+    <option name="totallyTimeSpent" value="2290000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="68" y="23" width="1369" height="877" extended-state="0" />
@@ -180,7 +185,7 @@
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/contributor/add-amonty.txt">
+    <entry file="file://$PROJECT_DIR$/contributor/add-almonty.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="6" selection-start-column="6" selection-end-column="6" />
