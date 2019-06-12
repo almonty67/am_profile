@@ -1,0 +1,128 @@
+/* Font used for Monogram Allura, can use Alex Brush if needed*/
+/* camaro color #444D53*/
+/*font-family: 'Allura', cursive;*/
+/*font-family: 'Istok Web', sans-serif;*/
+
+body {
+    background:  #fff;
+}
+
+/******* NAVIGATION *******/
+.navbar {
+    background-color: #FAFAD2;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    font-size: smaller;
+    line-height: 1em;
+}
+
+a {
+    color: #5705AD;
+}
+
+a:hover {
+    color: #87CEFA;
+}
+
+a.navbar-brand {
+    color: #5705AD ! important;
+    font-family: Allura, cursive, sans-serif;
+    font-size: 45px;
+    margin-top: 10px;
+}
+
+a.navbar-brand:hover {
+    color: #87CEFA ! important;
+}
+
+li.nav-item {
+    font-family: Allura, cursive, sans-serif;
+    font-size: 2.25rem;
+    padding: 25px;
+}
+/********* END NAVIGATION *********/
+
+/***** JUMBOTRON ANIMATION ******/
+
+.webcoderskull {
+    font-size: 0.5em;
+}
+
+svg {
+    position: absolute;
+    width: 100%;
+    height:   90.85%;
+    background: #000;
+    /*background: #4B0082;*/
+    background-size: 0.12em 100%;
+    font: 16em/1 'Allura', cursive, sans-serif;
+}
+.webcoderskull-1 {
+    fill: none;
+    stroke: white;
+    stroke-dasharray: 7%, 28%;
+    stroke-width: 4px;
+    -webkit-animation: stroke-offset  3s infinite;
+    animation: stroke-offset  9s  ease-in infinite ;
+}
+.webcoderskull-1:nth-child(1) {
+    stroke: #8A2BE2;
+    stroke-dashoffset: 7%;
+}
+.webcoderskull-1:nth-child(2) {
+    stroke: #d61c59;
+    stroke-dashoffset: 14%;
+}
+.webcoderskull-1:nth-child(3) {
+    stroke: #e7d84b;
+    stroke-dashoffset: 21%;
+}
+.webcoderskull-1:nth-child(4) {
+    stroke: #efeac5;
+    stroke-dashoffset: 28%;
+}
+.webcoderskull-1:nth-child(5) {
+    stroke: #1b8798;
+    stroke-dashoffset: 35%;
+}
+
+@-webkit-keyframes stroke-offset {
+    50% {
+        stroke-dashoffset: 30%;
+        stroke-dasharray: 0, 72.5%;
+    }
+}
+
+@keyframes stroke-offset {
+    50% {
+        stroke-dashoffset: 30%;
+        stroke-dasharray: 0, 72.5%;
+    }
+}
+/***** END JUMBOTRON ANIMATION ******/
+
+/***** CONTACT PAGE ******/
+.svg-animation {
+    height: 24%;
+}
+.webcoderskull-contact {
+    font-size: 0.6em;
+}
+
+.text--line-contact {
+    font-size: 0.5em;
+}
+
+h3.contact-page-header {
+    margin-top: 320px;
+}
+
+/********** FORM **********/
+/*label {*/
+/*    color: #5705AD;*/
+/*}*/
+
+
+
+/********** END FORM **********/
+/********** END CONTACT PAGE *********/
