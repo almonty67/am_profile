@@ -114,7 +114,6 @@ svg {
 /*}*/
 section {
     background: black;
-
 }
 .contact-page {
     background-color: black;
@@ -126,6 +125,11 @@ section {
     font-size: 1.35em;
 }
 
+/********** FORM **********/
+form {
+    position: relative;
+    width: 100%;
+}
 .form-group {
     color: #5705AD;
     margin-left: 50px;
@@ -133,19 +137,18 @@ section {
 }
 
 .col-sm-10, .form-group-row {
-    padding-right:  318px;
+    padding-right:  300px;
  }
 
 .btn-submit {
     background: #d61c59;
-    margin-top: 14px;
+    margin-top: 12px;
+    margin-bottom: 25px;
     margin-left: 970px;
+    padding-bottom: 10px;
 }
-
-/********** FORM **********/
-
-
-
-
 /********** END FORM **********/
+.footer {
+
+}
 /********** END CONTACT PAGE *********/
