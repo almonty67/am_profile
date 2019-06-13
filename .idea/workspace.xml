@@ -19,8 +19,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/contact.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="63" column="121" selection-start-line="63" selection-start-column="121" selection-end-line="63" selection-end-column="121" />
+            <state relative-caret-position="206">
+              <caret line="74" column="126" selection-start-line="74" selection-start-column="126" selection-end-line="74" selection-end-column="126" />
             </state>
           </provider>
         </entry>
@@ -28,8 +28,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/custom.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="359">
-              <caret line="117" column="3" lean-forward="true" selection-start-line="104" selection-start-column="3" selection-end-line="117" selection-end-column="3" />
+            <state relative-caret-position="353">
+              <caret line="128" column="19" selection-start-line="128" selection-start-column="19" selection-end-line="128" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -142,12 +142,12 @@
       <option name="presentableId" value="Default" />
       <updated>1560267481600</updated>
       <workItem from="1560267486533" duration="4263000" />
-      <workItem from="1560359490770" duration="12465000" />
+      <workItem from="1560359490770" duration="13958000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16728000" />
+    <option name="totallyTimeSpent" value="18221000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="37" y="23" width="1369" height="877" extended-state="0" />
@@ -226,15 +226,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/custom.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="117" column="3" lean-forward="true" selection-start-line="104" selection-start-column="3" selection-end-line="117" selection-end-column="3" />
+        <state relative-caret-position="353">
+          <caret line="128" column="19" selection-start-line="128" selection-start-column="19" selection-end-line="128" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/contact.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="63" column="121" selection-start-line="63" selection-start-column="121" selection-end-line="63" selection-end-column="121" />
+        <state relative-caret-position="206">
+          <caret line="74" column="126" selection-start-line="74" selection-start-column="126" selection-end-line="74" selection-end-column="126" />
         </state>
       </provider>
     </entry>
