@@ -114,6 +114,7 @@ svg {
 /*}*/
 section {
     background: black;
+
 }
 .contact-page {
     background-color: black;
@@ -127,6 +128,17 @@ section {
 
 .form-group {
     color: #5705AD;
+    margin-left: 50px;
+    padding-left: 30px;
+}
+
+.col-sm-10, .form-group-row {
+    padding-right:  318px;
+ }
+
+.btn-submit {
+    margin-top: 14px;
+    margin-left: 970px;
 }
 
 /********** FORM **********/
