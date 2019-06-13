@@ -112,10 +112,22 @@ svg {
 /*.text--line-contact {*/
 /*    font-size: 0.5em;*/
 /*}*/
+section {
+    background: black;
+}
+.contact-page {
+    background-color: black;
+    color: #1b8798;
+}
 
-/*h3.contact-page-header {*/
-/*    margin-top: 320px;*/
-/*}*/
+.contact-para {
+    color: #d61c59;
+    font-size: 1.35em;
+}
+
+.form-group {
+    color: #5705AD;
+}
 
 /********** FORM **********/
 
