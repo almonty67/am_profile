@@ -144,11 +144,14 @@ form {
     background: #d61c59;
     margin-top: 12px;
     margin-bottom: 25px;
-    margin-left: 970px;
+    margin-left: 610px;
     padding-bottom: 10px;
 }
 /********** END FORM **********/
-.footer {
+footer {
+    background:  #FAFAD2;
+}
+ .footer-contact {
 
 }
 /********** END CONTACT PAGE *********/
