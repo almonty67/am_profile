@@ -150,8 +150,9 @@ form {
 /********** END FORM **********/
 footer {
     background:  #FAFAD2;
-}
- .footer-contact {
 
+}
+footer, .contact-footer {
+     height: 100%;
 }
 /********** END CONTACT PAGE *********/
