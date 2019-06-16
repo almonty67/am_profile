@@ -2,7 +2,9 @@
 /* camaro color #444D53*/
 /*font-family: 'Allura', cursive;*/
 /*font-family: 'Istok Web', sans-serif;*/
-
+/** {*/
+/*    border: 1px solid red;*/
+/*}*/
 body {
     background:  #fff;
 }
@@ -102,7 +104,7 @@ svg {
 /***** END JUMBOTRON ANIMATION ******/
 .bg-img-1{
     background-image:  url("../img/bg13.png");
-    min-height:  682px;
+    min-height:  500px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -110,45 +112,73 @@ svg {
 }
 
 .caption-1 {
+
     position: absolute;
     left: 0;
-    top: 50%;
+    top: 69%;
     width: 100%;
-    color:  #8A2BE2;
+    color:  #d61c59;
 }
 
 span.border {
-    background-color: #FAFAD2;
-    padding:  18px;
-    font-size: 25px;
-    letter-spacing: 7px;
+    /*padding:  15px;*/
+    font-size: 15px;
+    letter-spacing: 2px;
+    margin-left:  76px;
 }
-
-.bg-img-2 {
-    background-color: #F8F8FF;
-    background-position: center;
-    background-repeat: no-repeat;
-    /*min-height: 940px;*/
-    /*min-width: 240px;*/
-    padding: 50px 10px;
-}
-
-/*h3   {*/
-/*    text-align: center;*/
-/*    margin-bottom: 500px;*/
-/*}*/
 
 .about-page {
-    color:#FB9658;
-    margin-right: 500px;
-    clear: both;
+    color: #5705AD;
+    font-family: 'Allura', cursive;
+    font-size: 3em;
+    letter-spacing:  5px;
+    text-transform: capitalize;
 }
 
-.about-para-1 {
-    color:#FB9658;
-    clear: both;
-    margin-left:  500px;
-    margin-bottom:  200px;
+.about-para {
+    color: #5705AD;
+    font-family: 'Istok Web', sans-serif;
+    font-weight:  400;
+    letter-spacing: 3px;
+}
+
+.about-page-1 {
+    color: #5705AD;
+    font-family: 'Allura', cursive;
+    font-size: 2.5em;
+    letter-spacing: 3px;
+    padding-top: 25px;
+}
+.bg-img-2 {
+    background-image: url("../img/profile-copy-2.jpg");
+    /*background-attachment: fixed;*/
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 400px;
+    position: relative;
+    opacity: 0.85;
+}
+
+.bg-img-3 {
+    background-image:  url("../img/me-holly-copy-2.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: left;
+
+    min-height:  800px;
+    position: relative;
+    opacity: 0.85;
+}
+
+.bg-img-4 {
+    background-image:  url("../img/woman-sitting-copy-1.png");
+    /*background-attachment: scroll;*/
+    background-repeat: no-repeat;
+    background-position: center;
+    /*margin-top:  65px;*/
+    min-height: 950px;
+    position: relative;
 }
 /*******  ABOUT PAGE ********/
 
