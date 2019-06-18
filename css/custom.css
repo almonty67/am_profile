@@ -5,8 +5,11 @@
 /** {*/
 /*    border: 1px solid red;*/
 /*}*/
-body {
+body, html {
     background:  #fff;
+    font-family: 'Istok Web', sans-serif;
+    height:  100%;
+    margin: 0;
 }
 
 /******* NAVIGATION *******/
@@ -102,85 +105,95 @@ svg {
     }
 }
 /***** END JUMBOTRON ANIMATION ******/
-.bg-img-1{
-    background-image:  url("../img/bg13.png");
-    min-height:  500px;
+
+/*******  ABOUT PAGE ********/
+.bg-img-1,
+.bg-img-2,
+.bg-img-3,
+.bg-img-4,
+.bg-img-5 {
+    position: relative;
+    opacity:  0.65;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.caption-1 {
+.bg-img-1 {
+    background-image: url("../img/bg13.png");
+    min-height: 50%;
+}
 
+.bg-img-2 {
+    background-image: url("../img/bloo-copy-1.jpg");
+    background-position: right;
+    min-height:  400px;
+}
+
+.bg-img-3 {
+    background-image:  url("../img/me-holly-copy-2.jpg");
+    background-position: left;
+    min-height:  400px;
+    opacity: 0.85;
+}
+
+/*.bg-img-4 {*/
+/*    background-image: url("../img/woman-sitting-copy-1.png");*/
+/*    min-height: 400px;*/
+/*}*/
+
+.bg-img-5 {
+    background-image: url("../img/profile-copy-2.jpg");
+    min-height: 400px;
+}
+
+.caption {
     position: absolute;
     left: 0;
-    top: 69%;
+    top: 50%;
     width: 100%;
+    text-align: center;
     color:  #d61c59;
 }
 
-span.border {
-    /*padding:  15px;*/
+caption.span.border {
+    background-color:  #111;
+    padding:  15px;
     font-size: 15px;
     letter-spacing: 2px;
     margin-left:  76px;
 }
 
+h3 {
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #111;
+    font-family: 'Allura', cursive;
+}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+    .bg-img-1, .bg-img-2, .bg-img-3, .bg-img-4, .bg-img-5 {
+        background-attachment: scroll;
+    }
+}
+
 .about-page {
     color: #5705AD;
-    font-family: 'Allura', cursive;
     font-size: 3em;
-    letter-spacing:  5px;
+    letter-spacing: 5px;
     text-transform: capitalize;
 }
 
-.about-para {
+p {
     color: #5705AD;
     font-family: 'Istok Web', sans-serif;
+    font-size:  1em;
     font-weight:  400;
     letter-spacing: 3px;
 }
-
-.about-page-1 {
-    color: #5705AD;
-    font-family: 'Allura', cursive;
-    font-size: 2.5em;
-    letter-spacing: 3px;
-    padding-top: 25px;
-}
-.bg-img-2 {
-    background-image: url("../img/profile-copy-2.jpg");
-    /*background-attachment: fixed;*/
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    min-height: 400px;
-    position: relative;
-    opacity: 0.85;
-}
-
-.bg-img-3 {
-    background-image:  url("../img/me-holly-copy-2.jpg");
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-position: left;
-
-    min-height:  800px;
-    position: relative;
-    opacity: 0.85;
-}
-
-.bg-img-4 {
-    background-image:  url("../img/woman-sitting-copy-1.png");
-    /*background-attachment: scroll;*/
-    background-repeat: no-repeat;
-    background-position: center;
-    /*margin-top:  65px;*/
-    min-height: 950px;
-    position: relative;
-}
-/*******  ABOUT PAGE ********/
 
 /*******  END ABOUT PAGE ********/
 
