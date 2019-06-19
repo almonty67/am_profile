@@ -110,7 +110,6 @@ svg {
 .bg-img-1,
 .bg-img-2,
 .bg-img-3,
-.bg-img-4,
 .bg-img-5 {
     position: relative;
     opacity:  0.65;
@@ -122,7 +121,19 @@ svg {
 
 .bg-img-1 {
     background-image: url("../img/bg13.png");
-    min-height: 50%;
+    min-height: 210px;
+}
+
+.bg-img-4 {
+    background-image: url("../img/woman-sitting-copy-1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 0;
+    height:  800px;
+    margin-left:  405px;
+   padding-top: 150px;
+    width: 550px;
 }
 
 .bg-img-2 {
@@ -138,10 +149,7 @@ svg {
     opacity: 0.85;
 }
 
-/*.bg-img-4 {*/
-/*    background-image: url("../img/woman-sitting-copy-1.png");*/
-/*    min-height: 400px;*/
-/*}*/
+
 
 .bg-img-5 {
     background-image: url("../img/profile-copy-2.jpg");
