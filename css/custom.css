@@ -114,7 +114,7 @@ svg {
     background-size: cover;
     opacity:  0.65;
     position: relative;
-    min-height:  70%;
+    min-height:  73%;
 
 }
 
@@ -122,27 +122,13 @@ svg {
     /*woman -sitting-copy.png*/
     background-repeat: no-repeat;
     background-position: center;
-    min-height:  200px;
+    min-height:  220px;
     margin-left:  550px;
-    margin-top:  245px;
-    position:  absolute
-;
-
+    margin-top:  205px;
+    position:  absolute;
 }
 
-/*.bg-img-4 {*/
-/*    background-repeat: no-repeat;*/
-/*    min-height:  300px;*/
-/*    margin-left:  405px;*/
-/*   padding-top: 150px;*/
-/*    position: absolute;*/
-/*}*/
-
-
-
-
-
-div.caption {
+.caption {
     font-family: 'Istok Web', sans-serif;
     font-size:  19px;
     letter-spacing:  2px;
@@ -159,15 +145,9 @@ h3 {
     letter-spacing: 5px;
     text-transform: uppercase;
     font-size: 20px;
-    color: #111;
+    color: #fff;
     font-family: 'Allura', cursive;
-}
-
- /*Turn off parallax scrolling for tablets and phones */
-@media (max-width: 1024px) {
-    .bg-img-1, .bg-img-2, .bg-img-3, .bg-img-4, .bg-img-5 {
-        background-attachment: scroll;
-    }
+    margin-top:  139px;
 }
 
 .about-page {
@@ -175,14 +155,17 @@ h3 {
     font-size: 3em;
     letter-spacing: 5px;
     text-transform: capitalize;
+    padding-top:  50px;
 }
 
+
 p {
-    color: #5705AD;
+    color: 	#fff;
     font-family: 'Istok Web', sans-serif;
     font-size:  1em;
     font-weight:  400;
     letter-spacing: 3px;
+    padding-top: 20px;
 }
 
 .bg-img-3 {
@@ -220,11 +203,18 @@ p {
 }
 
 .bg-img-6 {
-    background-image:  url("../img/dark-grey-terrazzo.png");
+    background-color:  	#E9EDF9;
     background-attachment:  fixed;
     background-repeat: repeat;
     min-height: 300px;
     opacity:  0.95;
+}
+
+/*Turn off parallax scrolling for tablets and phones */
+@media (max-width: 1024px) {
+    .bg-img-1, .bg-img-2, .bg-img-3, .bg-img-4, .bg-img-5 {
+        background-attachment: scroll;
+    }
 }
 
 
