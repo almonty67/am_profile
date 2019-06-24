@@ -134,12 +134,11 @@ svg {
     letter-spacing:  2px;
     position: absolute;
     left: 0;
-    top: 50%;
+    top: 75%;
     width: 100%;
     text-align: center;
     color:  #d61c59;
     margin-left:  42px;
-    margin-top: 170px;
 }
 
 h3 {
@@ -200,7 +199,7 @@ p  {
 }
 
 .bg-img-5 {
-    background-image: url("../img/bloo-copy-1.jpg");
+    background-image: url("../img/bloo.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size:  400px;
@@ -236,6 +235,20 @@ p.about-para-3  {
     font-weight:  400;
     letter-spacing: 3px;
 }
+
+.social-media {
+    font-size: 1.25em;
+}
+
+footer {
+    max-height: 150px;
+}
+
+p.footer  {
+    color: #000;
+    margin-top: 86px;
+}
+
 
 
 /*Turn off parallax scrolling for tablets and phones */
