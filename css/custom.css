@@ -111,40 +111,26 @@ svg {
     background-image: url("../img/bg13.png");
     background-attachment: fixed;
     background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
     opacity:  0.65;
     position: relative;
-    min-height:  70%;
-
+    min-height:  100%;
 }
 
 .bg-img-2 {
     /*woman -sitting-copy.png*/
     background-repeat: no-repeat;
     background-position: center;
-    min-height:  200px;
+    min-height:  220px;
     margin-left:  550px;
-    margin-top:  245px;
-    position:  absolute
-;
-
+    margin-top:  250px;
+    position:  absolute;
 }
 
-/*.bg-img-4 {*/
-/*    background-repeat: no-repeat;*/
-/*    min-height:  300px;*/
-/*    margin-left:  405px;*/
-/*   padding-top: 150px;*/
-/*    position: absolute;*/
-/*}*/
-
-
-
-
-
-div.caption {
+.caption {
     font-family: 'Istok Web', sans-serif;
-    font-size:  19px;
+    font-size:  2em;
     letter-spacing:  2px;
     position: absolute;
     left: 0;
@@ -153,37 +139,41 @@ div.caption {
     text-align: center;
     color:  #d61c59;
     margin-left:  42px;
+    margin-top: 170px;
 }
 
 h3 {
     letter-spacing: 5px;
     text-transform: uppercase;
     font-size: 20px;
-    color: #111;
+    color: #fff;
     font-family: 'Allura', cursive;
 }
 
- /*Turn off parallax scrolling for tablets and phones */
-@media (max-width: 1024px) {
-    .bg-img-1, .bg-img-2, .bg-img-3, .bg-img-4, .bg-img-5 {
-        background-attachment: scroll;
-    }
-}
-
-.about-page {
+h3.about-page-1 {
     color: #5705AD;
     font-size: 3em;
     letter-spacing: 5px;
     text-transform: capitalize;
+    padding-top:  50px;
 }
 
-p {
+h3.about-page-2 {
     color: #5705AD;
+    font-size: 3em;
+    letter-spacing: 5px;
+    text-transform: capitalize;
+    margin-top: 50px;
+}
+
+p  {
+    color: 	#fff;
     font-family: 'Istok Web', sans-serif;
     font-size:  1em;
     font-weight:  400;
     letter-spacing: 3px;
 }
+
 
 .bg-img-3 {
     background-image: url("../img/profile-copy-2.jpg");
@@ -191,7 +181,7 @@ p {
     background-position:  right;
     background-size: 370px;
     background-repeat: no-repeat;
-    min-height: 200px;
+    min-height: 410px;
     opacity:  1.05;
     position: relative;
 }
@@ -202,9 +192,10 @@ p {
     background-repeat: no-repeat;
     background-position: left;
     background-size:  300px;
-    padding-left: 100px;
-    min-height:  360px;
+    margin-left: 10px;
+    min-height:  380px;
     opacity:  1.05;
+    padding-top: 25px;
     position: relative;
 }
 
@@ -213,18 +204,45 @@ p {
     background-repeat: no-repeat;
     background-position: center;
     background-size:  400px;
-    margin-bottom:  1000px;
+    margin-left: 100px;
     min-height:  300px;
     opacity:  1.05;
     position: relative;
 }
 
 .bg-img-6 {
-    background-image:  url("../img/dark-grey-terrazzo.png");
+    background-image: url("../img/276294-unsplash.jpg");
     background-attachment:  fixed;
-    background-repeat: repeat;
-    min-height: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     opacity:  0.95;
+    position: relative;
+}
+
+h3.about-page-3 {
+    color: #5BBAE6;
+    font-size: 3em;
+    font-weight:  bold;
+    letter-spacing: 5px;
+    text-transform: capitalize;
+    padding-top: 46px;
+}
+
+p.about-para-3  {
+    color: 	#000;
+    font-family: 'Istok Web', sans-serif;
+    font-size:  1em;
+    font-weight:  400;
+    letter-spacing: 3px;
+}
+
+
+/*Turn off parallax scrolling for tablets and phones */
+@media (max-width: 1024px) {
+    .bg-img-1, .bg-img-2, .bg-img-3, .bg-img-4, .bg-img-5 {
+        background-attachment: scroll;
+    }
 }
 
 
