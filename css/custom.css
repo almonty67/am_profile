@@ -178,6 +178,8 @@ p  {
     background-image: url("../img/profile-copy-2.jpg");
     background-attachment: fixed;
     background-position:  right;
+    background-position-x: right    ;
+    background-position-y: center;
     background-size: 370px;
     background-repeat: no-repeat;
     min-height: 410px;
@@ -204,7 +206,7 @@ p  {
     background-position: center;
     background-size:  400px;
     margin-left: 100px;
-    min-height:  300px;
+    min-height:  600px;
     opacity:  1.05;
     position: relative;
 }
@@ -215,6 +217,7 @@ p  {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    padding-bottom: 55px;
     opacity:  0.95;
     position: relative;
 }
@@ -236,31 +239,15 @@ p.about-para-3  {
     letter-spacing: 3px;
 }
 
-.social-media {
-    font-size: 1.25em;
+.bg-img-2-2 {
+    /*woman -sitting-copy.png*/
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 220px;
+    margin-left: 550px;
+    margin-top: 450px;
+    position: absolute;
 }
-
-footer {
-    max-height: 150px;
-}
-
-p.footer  {
-    color: #000;
-    margin-top: 86px;
-}
-
-
-
-/*Turn off parallax scrolling for tablets and phones */
-@media (max-width: 1024px) {
-    .bg-img-1, .bg-img-2, .bg-img-3, .bg-img-4, .bg-img-5 {
-        background-attachment: scroll;
-    }
-}
-
-
-
-
 
 /*******  END ABOUT PAGE ********/
 
@@ -276,10 +263,10 @@ p.footer  {
 /*    font-size: 0.5em;*/
 /*}*/
 section {
-    background: black;
+    background-color: #000;
 }
+
 .contact-page {
-    background-color: black;
     color: #1b8798;
 }
 
@@ -287,7 +274,7 @@ section {
     color: #d61c59;
     font-size: 1.35em;
 }
-
+/********** END  CONTACT PAGE **********/
 /********** FORM **********/
 form {
     position: relative;
@@ -303,19 +290,32 @@ form {
     padding-right:  300px;
  }
 
-.btn-submit {
-    background: #d61c59;
-    margin-top: 12px;
-    margin-bottom: 25px;
-    margin-left: 610px;
-    padding-bottom: 10px;
+.form-text, .text-muted {
+    color: #5BBAE6;
 }
-/********** END FORM **********/
-footer {
-    background:  #FAFAD2;
+
+.valid-feedback {
+    color: green;
+}
+
+.invalid-feedback {
+    color: red;
+}
+
+.btn-primary {
+    background: #5BBAE6;
+    color: #8A2BE2;
+   margin-left: 660px;
+    margin-bottom: 20px;
 
 }
-footer, .contact-footer {
-     height: 100%;
-}
+/********** END FORM **********/
 /********** END CONTACT PAGE *********/
+
+/********  MEDIA QUERIES *********/
+/*Turn off parallax scrolling for tablets and phones */
+@media (max-width: 1024px) {
+    .bg-img-1, .bg-img-2, .bg-img-3, .bg-img-4, .bg-img-5, .bg-img-6 {
+        background-attachment: scroll;
+    }
+}
