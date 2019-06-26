@@ -11,7 +11,7 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
         <!-- FontAwesome -->
-        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-xVVam1KS4+Qt2OrFa+VdRUoXygyKIuNWUUUBZYv+n27STsJ7oDOHJgfF0bNKLMJF" crossorigin="anonymous">
+        <script src="https://kit.fontawesome.com/6f3f5a9527.js"></script>
         <!-- Google Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Allura|Istok+Web:400,400i,700,700i" rel="stylesheet">
 
@@ -21,7 +21,7 @@
     <body>
         <header>
             <!-- Navigation -->
-            <nav class="navbar navbar-expand-lg navbar-dark navbar-fixed">
+            <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
                 <a class="navbar-brand" href="index.html" >AM</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -44,24 +44,26 @@
         </header>
 
         <!-- CONTACT -->
-        <section id="contact" class="container-fluid">
-        <h2 class="contact-page display-3 text-center">Contact Information</h2>
-            <p class="contact-para text-center display-5">If you would like to leave Andi a message, you can do so below:</p>
+        <main class="container-fluid">
+            <section id="contact">
+                <h2 class="contact-page display-3 text-center">Contact Information</h2>
+                <p class="contact-para text-center display-5">If you would like to leave Andi a message, please fill out the form below</p>
+
         <!-- CONTACT FORM -->
-        <form  name="contact" class="needs-validation"  method="POST" data-netlify="true" novalidate>
-            <div class="form-group row d-flex-5">
+        <form  name="contact-form" class="needs-validation"  method="POST" data-netlify="true" novalidate>
+            <div class="form-group row d-flex-5 full-name">
                 <label for="validationCustomYourName" class="col-sm-2 col-form-label-lg">Full name *</label>
-                <div class="col-sm-10">
-                    <input type="text" class="form-control" id="validationCustomYourName"   placeholder="Enter Full Name" aria-describedby="You must enter a full name">
+                <div class="col-sm-6">
+                    <input type="text" class="form-control" id="validationCustomYourName"   placeholder="Enter Full Name" aria-describedby="customNameHelp">
                     <small id="customNameHelp" class="form-text">Please enter your name *</small>
                     <div class="valid-feedback">
                         Looks good!
                     </div>
-                </div>
-            </div>
-            <div class="form-group row">
+                 </div>
+              </div>
+            <div class="form-group row email">
                 <label for="validationCustomEmailAddress" class="col-sm-2 col-form-label-lg">Email Address *</label>
-                <div class="col-sm-10">
+                <div class="col-sm-6">
                     <input type="email" class="form-control" id="validationCustomEmailAddress"  placeholder="Enter Email" aria-describedby="customEmailHelp">
                     <small id="customEmailHelp" class="form-text">I will never share your email with anyone else.</small>
                     <div class="invalid-feedback">
@@ -69,11 +71,11 @@
                     </div>
                 </div>
             </div>
-            <div class="form-group row">
+            <div class="form-group row message">
                 <label for="validationCustomMessage" class="col-sm-2 col-form-label-lg">Message *</label>
-                <div class="col-sm-10">
-                     <textarea  id="validationCustomMessage"  class=" form-control"  rows="5"  placeholder="Enter your message" aria-describedby="message"></textarea>
-                    <small id="CustomMessageHelp" class="form-text">Please leave me a detailed message!.</small>
+                <div class="col-sm-6">
+                     <textarea  id="validationCustomMessage"  class=" form-control"  rows="5"  placeholder="Enter your message" aria-describedby="customMessageHelp"></textarea>
+                    <small id="customMessageHelp" class="form-text">Please leave me a detailed message!.</small>
                     <div class="valid-feedback">
                         Looks good!
                     </div>
@@ -81,20 +83,50 @@
             </div>
             <button type="submit" value="submit" class="btn  btn-primary">Submit</button>
         </form>
-        </section>
         <!-- END CONTACT FORM -->
+        </section> <!-- END SECTION -->
 
-        <footer  class="contact-footer container-fluid">
-                <div class="row">
-                    <div class="col-md-12">
-                         <p class="copyright text-center">&copy; 2019 ahawebdev.com/ Monty</p>
-                    </div>
+
+        <!-- BEGIN FOOTER -->
+        <section class="footer">
+            <footer  class="contact-footer">
+                <div class="container-fluid">
+                    <h4 class="social-media text-center">You can find Andi on social media or you can email her.</h4>
                 </div>
-        </footer>
 
+                <div class="row">
+                    <div class="col-md-4">
+                        <span class="fab fa-facebook-square fa-lg" id="facebook"> </span>
+                    </div> <!-- End col-md-4 -->
 
+                    <div class="col-md-4">
+                        <span class="fab fa-twitter fa-lg " id="twitter"></span>
+                    </div> <!-- End col-md-4 -->
 
+                    <div class="col-md-4">
+                        <span class="fas fa-envelope fa-lg" id="envelope"></span>
+                    </div> <!-- End col-md-4 -->
+                </div>  <!-- End row -->
 
+                <div class="row">
+                    <div class="col-md-6">
+                        <p class="w3c">
+                            <a href="http://jigsaw.w3.org/css-validator/check/referer">
+                                <img style="border:0;width:88px;height:31px"
+                                     src="http://jigsaw.w3.org/css-validator/images/vcss"
+                                     alt="Valid CSS!" />
+                            </a>
+                        </p>
+                    </div> <!-- End col-md-6 -->
+
+                    <div class="col-md-6">
+                        <p class="copyright text-center">&copy; 2019 by Andi</p>
+                    </div><!-- End col-md-4 -->
+                </div> <!-- End row -->
+
+             </footer>
+          </section>
+        </main>
 
         <!-- Bootstrap JS -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
@@ -103,26 +135,26 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.9/validator.min.js" integrity="sha256-dHf/YjH1A4tewEsKUSmNnV05DDbfGN3g7NMq86xgGh8=" crossorigin="anonymous"></script>
 
-
-        <script>
-            // Example starter JavaScript for disabling form submissions if there are invalid fields
-            (function() {
-                'use strict';
-                window.addEventListener('load', function () {
-                    // Fetch all the forms we want to apply custom Bootstrap validation styles to
-                    var forms = document.getElementsByClassName('needs-validation');
-                    // Loop over them and prevent submission
-                    var validation = Array.prototype.filter.call(forms, function (form) {
-                        form.addEventListener('submit', function (event) {
-                            if (form.checkValidity() === false) {
-                                event.preventDefault();
-                                event.stopPropagation();
-                            }
-                            form.classList.add('was-validated');
-                        }, false);
-                    });
-                }, false);
-            })();
-        </script>
+        <!-- CUSTOM JS -->
+<!--        <script>-->
+<!--            // Example starter JavaScript for disabling form submissions if there are invalid fields-->
+<!--            (function() {-->
+<!--                'use strict';-->
+<!--                window.addEventListener('load', function () {-->
+<!--                    // Fetch all the forms we want to apply custom Bootstrap validation styles to-->
+<!--                    var forms = document.getElementsByClassName('needs-validation');-->
+<!--                    // Loop over them and prevent submission-->
+<!--                    var validation = Array.prototype.filter.call(forms, function (form) {-->
+<!--                        form.addEventListener('submit', function (event) {-->
+<!--                            if (form.checkValidity() === false) {-->
+<!--                                event.preventDefault();-->
+<!--                                event.stopPropagation();-->
+<!--                            }-->
+<!--                            form.classList.add('was-validated');-->
+<!--                        }, false);-->
+<!--                    });-->
+<!--                }, false);-->
+<!--            })();-->
+<!--        </script>-->
     </body>
 </html>
