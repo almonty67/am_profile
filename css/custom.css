@@ -2,9 +2,9 @@
 /* camaro color #444D53*/
 /*font-family: 'Allura', cursive;*/
 /*font-family: 'Istok Web', sans-serif;*/
-/** {*/
-/*    border: 1px solid red;*/
-/*}*/
+* {
+    border: 1px solid red;
+}
 body,
 html {
     background: #fff;
@@ -12,6 +12,7 @@ html {
     height: 100%;
     margin: 0;
     width: 100%;
+    overflow-x: hidden;
 }
 
 /******* NAVIGATION *******/
@@ -314,7 +315,7 @@ small {
 .social-media {
     color: #efeac5;
     padding-top: 55px;
-    margin-left: 73px;
+    margin-left: 53px;
 }
 
 span.fab,
@@ -324,29 +325,30 @@ span.fas {
 
 #facebook {
     color: #1b8798;
-    margin-left:  520px;
+    margin-left: 220px;
+    margin-bottom: 10px;
 }
 
 #twitter {
     color: #5BBAE6;
-    margin-left: 220px;
+    margin-left: 210px;
 }
 
 #envelope {
     color: #e7d84b;
-    margin-left: -90px;
+    margin-left: 210px;
 }
 
 p.copyright  {
     color: #FAFAD2;
-    margin-left: 210px;
+    margin-left: 370px;
     padding-left: 15px;
-    margin-top: 45px;
+    margin-top: 50px;
 }
 
 p.w3c {
     margin-top: 45px;
-    margin-left: 150px;
+    margin-left: 50px;
 }
 /********** END FOOTER  **********/
 
