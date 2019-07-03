@@ -11,6 +11,7 @@ body {
     font-family: 'Istok Web', sans-serif;
     height: 100%;
     margin: 0;
+    position: relative;
     width: 100%;
     overflow-x: hidden;
 }
@@ -71,7 +72,7 @@ svg {
     stroke-dasharray: 7%, 28%;
     stroke-width: 4px;
     -webkit-animation: stroke-offset  3s infinite;
-    animation: stroke-offset  9s  ease-in infinite ;
+    animation: stroke-offset  6s ease-in-out  infinite ;
 }
 .webcoderskull-1:nth-child(1) {
     stroke: rgb(138, 43, 226);
@@ -261,11 +262,6 @@ p.about-copyright {
 /*******  END ABOUT PAGE ********/
 
 /***** PORTFOLIO ******/
-/*main,*/
-/*.main-portfolio {*/
-/*    background: aliceblue;*/
-/*}*/
-
 .project {
     color: rgb(87, 5, 173);
     font-family: Allura,cursive,sans-serif;
@@ -359,15 +355,19 @@ small {
 /********** END CONTACT PAGE *********/
 
 /********** FOOTER  **********/
+.contact-footer {
+    height: 200px;
+}
+
 .social-media {
     color: rgb(239, 234, 197);
-    padding-top: 55px;
+    padding-top: 30px;
     margin-left: 53px;
 }
 
 span.fab,
 span.fas {
-    margin-top: 50px;
+    margin-top: 16px;
 }
 
 #facebook {
@@ -391,11 +391,11 @@ p.copyright  {
     letter-spacing: normal;
     margin-left: 372px;
     padding-left: 15px;
-    margin-top: 58px;
+    margin-top: 50px;
 }
 
 p.w3c {
-    margin-top: 45px;
+    margin-top: 40px;
     margin-left: 50px;
 }
 /********** END FOOTER  **********/
